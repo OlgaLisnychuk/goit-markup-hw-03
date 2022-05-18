@@ -43,6 +43,10 @@ ul {
     margin: 0;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 /* Logo */
 .logo {
     color: var(--accent-color);
@@ -115,6 +119,12 @@ ul {
   }
 
  /* Hero title */
+ .hero {
+    margin-bottom: 61px;
+    background-color: var(--futer-bg-color);
+    text-align: center;
+}
+
  .hero-title {
      margin-top: 0;
      margin-bottom: 30px;
@@ -125,14 +135,9 @@ ul {
     /* text-align: center; */
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
- }
+    }
 
 /* Background color section */
-
-.hero {
-    background-color: var(--futer-bg-color);
-}
 
 .section.team {
     background-color: var(--end-bg-color);
@@ -145,6 +150,8 @@ ul {
 /* Section */
 
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -154,8 +161,13 @@ ul {
 }
 
 /* Peculiarities */
+.feature {
+    margin-bottom: 94px;
+}
 
 .feature-title {
+    margin-top: 0;
+    margin-bottom: 10;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -164,8 +176,15 @@ ul {
 }
 
 /* Team section */
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+   
+}
 
 .team-name {
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 500;
@@ -255,7 +274,14 @@ ul {
     background-color: var(--accent-color);
 }
 
+.project-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .project-title {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
