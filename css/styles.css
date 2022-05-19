@@ -360,13 +360,13 @@ margin-bottom: 9px;
     padding-right: 22px;
     padding-bottom: 6px;
     padding-left: 22px;
-    /* margin-right: 8px;  */
     background-color: var(--end-bg-color);
     font-family: inherit;
     text-align: center;
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    border-color: var(--end-bg-color);
     border-radius: 4px;
 }
 
