@@ -17,14 +17,14 @@
 <body>
 <!--site_header-->
     <header class="header">
-        <div class="container" >
+        <div class="container main-naw " >
             <a class="logo" href="">Web<span class="logo-accent">Studio</span></a>
         
         <nav>
             <ul class="site-nav">
-                <li> <a class="link" href="./index.html">Студия</a></li>
-                <li> <a class="link current" href="./portfolio.html">Портфолио</a></li>
-                <li> <a class="link" href="">Контакты</a></li>
+                <li class="item"> <a class="link" href="./index.html">Студия</a></li>
+                <li class="item"> <a class="link current" href="./portfolio.html">Портфолио</a></li>
+                <li class="item" > <a class="link" href="">Контакты</a></li>
                 
             </ul>
 
@@ -40,19 +40,19 @@
         
      </header>
     <main>
-        <section>
-            <div class="container" >
+        <section class="section-portfolio">
+            <div class="container">
                 <h1 class="visually-hidden">Content Portfolio page</h1>     
-                <ul>
-                    <li> <button class="button portfolio" type="button" >Все</button></li>
-                    <li> <button class="button portfolio" type="button">Веб-сайты</button></li>
-                    <li> <button class="button portfolio" type="button">Приложения</button></li>
-                    <li> <button class="button portfolio" type="button">Дизайн</button></li>
-                    <li> <button class="button portfolio" type="button">Маркетинг</button></li>
+                <ul class="button-list">
+                    <li class="item"> <button class="button-portfolio" type="button" >Все</button></li>
+                    <li class="item"> <button class="button-portfolio" type="button">Веб-сайты</button></li>
+                    <li class="item"> <button class="button-portfolio" type="button">Приложения</button></li>
+                    <li class="item"> <button class="button-portfolio" type="button">Дизайн</button></li>
+                    <li class="item"> <button class="button-portfolio" type="button">Маркетинг</button></li>
                 </ul>
-                
-                <ul>
-                    <li class="project">
+            
+                <ul class="mainproject">
+                    <li class="project-list">
                         <img src="./images/cards.jpg" alt="our specialists">
                         <div class="project-container">
                             <h2 class="project-title">Технокряк</h2>
@@ -60,7 +60,7 @@
                         </div>
                         
                     </li>
-                    <li>
+                    <li class="project-list" >
                         <img src="./images/basketball.jpg" alt="basketball players">
                         <div class="project-container">
                             <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
@@ -68,14 +68,14 @@
                         </div>
                         
                     </li>
-                    <li>
+                    <li class="project-list" >
                         <img src="./images/fichrestaurant.jpg" alt="logo of seafoodrestaurant">
                         <div class="project-container">
                             <h2 class="project-title">Ресторан Seafood</h2>
                             <p class="project-text">Приложение</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="project-list">
                         <img src="./images/headphone.jpg" alt="headphone">
                         <div class="project-container">
                             <h2 class="project-title">Маркетинг</h2>
@@ -83,7 +83,8 @@
                         </div>
                         
                     </li>  
-                    <li>
+                    
+                    <li class="project-list">
                         <img src="./images/boxes.jpg" alt="boxes">
                         <div class="project-container">
                             <h2 class="project-title">Проект Boxes</h2>
@@ -91,30 +92,20 @@
                         </div>
                         
                     </li>
-                    <li>
-                        <img src="./images/boxes.jpg" alt="boxes">
-                        <div class="project-container">
-                            <h2 class="project-title">Проект Boxes</h2>
-                            <p class="project-text">Маркетинг</p>
-                        </div>
-                        
-                    </li>
-                    <li>
+                    <li class="project-list">
                         <img src="./images/monitor.jpg" alt="monitor">
                         <div class="project-container">
                             <h2 lang="en" class="project-title">Inspiration has no Borders</h2>
                             <p class="project-text">Веб-сайт</p>
                         </div>
                      </li>
-                    <li>
+                    <li class="project-list">
                         <img src="./images/book.jpg" alt="book">
                         
                             <h2 class="project-title">Издание Limited Edition</h2>
-                            <p class="project-text">Дизайн</p>
-                        </div>
-                        
+                            <p class="project-text">Дизайн</p>   
                     </li>
-                    <li>
+                    <li class="project-list">
                         <img src="./images/LAB.jpg" alt="label teg">
                         <div class="project-container">
                             <h2 class="project-title">Проект LAB</h2>
@@ -122,7 +113,7 @@
                         </div>
                         
                     </li>
-                    <li>
+                    <li class="project-list">
                         <img src="./images/leptoptyping.jpg" alt="leptop">
                         <div class="project-container">
                             <h2 class="project-title">Growing Business</h2>
@@ -132,22 +123,24 @@
     
                     </li>    
                 </ul>
-            </div>
+            </div>   
+                
+        
            
         </section>
     </main>
 
     <!--footer-->
     <footer class="footer">
-        <div class="container" >
+        <div class="container footer-list" >
             <a class="logo" href="" >Web<span class="logo-footer">Studio</span></a>
-            <address>
+            <address class="address-top">
                <ul class="address">
-                   <li> <a class="address-place" href="https://goo.gl/maps/zkPrUZPVj4T2EZEg6" target="_blank" rel="noreferrer noopener">
+                   <li class="item"> <a class="address-place" href="https://goo.gl/maps/zkPrUZPVj4T2EZEg6" target="_blank" rel="noreferrer noopener">
                        г. Киев, пр-т Леси Украинки, 26  
                    </a></li>
-                   <li> <a class="address-contact" href="mailto:info@example.com">info@example.com</a></li>
-                   <li> <a class="address-contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                   <li class="item"> <a class="address-contact" href="mailto:info@example.com">info@example.com</a></li>
+                   <li class="item"> <a class="address-contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
                  </ul> 
             </address>
         </div>
