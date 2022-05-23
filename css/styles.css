@@ -409,7 +409,7 @@ margin-bottom: 9px;
     background-color: var(--end-bg-color);
     font-family: inherit;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
@@ -438,9 +438,8 @@ margin-bottom: 9px;
 }
 
 .project-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
+    padding: 20px 24px;
+    
     border: 1px solid var(--portfolio-border-color);
     border-top: none;
 }
